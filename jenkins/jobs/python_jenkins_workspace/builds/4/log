@@ -1,0 +1,26 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /home/coder/project/workspace/jenkins/workspace/python_jenkins_workspace
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/saivenkatnikhil/python_pilot_jenkins.git
+ > git init /home/coder/project/workspace/jenkins/workspace/python_jenkins_workspace # timeout=10
+Fetching upstream changes from https://github.com/saivenkatnikhil/python_pilot_jenkins.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/saivenkatnikhil/python_pilot_jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/saivenkatnikhil/python_pilot_jenkins.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 8b19f7c1a32509fe9561a5aad854d3dc9aff1a11 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8b19f7c1a32509fe9561a5aad854d3dc9aff1a11 # timeout=10
+Commit message: "My First python_jenkins_project"
+First time build. Skipping changelog.
+[python_jenkins_workspace] $ /bin/sh -xe /tmp/jenkins12675208699701607493.sh
++ cd python_pilot_project
++ python3 my_python_script.py
+6
+Finished: SUCCESS
