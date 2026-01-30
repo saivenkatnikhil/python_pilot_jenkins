@@ -1,0 +1,8 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /home/coder/project/workspace/jenkins/workspace/python_jenkins_workspace
+[python_jenkins_workspace] $ /bin/sh -xe /tmp/jenkins14879388208671766164.sh
++ cd python_pilot_project
+/tmp/jenkins14879388208671766164.sh: line 2: cd: python_pilot_project: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
