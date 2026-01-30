@@ -1,0 +1,26 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /home/coder/project/workspace/jenins/workspace/python_project_jenkisn
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/coder/project/workspace/jenins/workspace/python_project_jenkisn/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/saivenkatnikhil/neo_python_proj.git # timeout=10
+Fetching upstream changes from https://github.com/saivenkatnikhil/neo_python_proj.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/saivenkatnikhil/neo_python_proj.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 02abb8f1f48670c19b6e11e6182f107b5acb8707 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 02abb8f1f48670c19b6e11e6182f107b5acb8707 # timeout=10
+Commit message: "python commit using jenkins"
+ > git rev-list --no-walk 02abb8f1f48670c19b6e11e6182f107b5acb8707 # timeout=10
+[python_project_jenkisn] $ /bin/sh -xe /tmp/jenkins7797125616456573570.sh
++ cd python_project
++ python3 --version
+Python 3.9.2
++ python3 -m pip install -r requirements.txt
+/usr/bin/python3: No module named pip
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

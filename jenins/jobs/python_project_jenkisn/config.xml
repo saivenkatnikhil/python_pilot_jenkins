@@ -34,11 +34,8 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd python_project
-
-python --version
-pip install -r requirements.txt
-
-python sample.py</command>
+python3 --version
+python3 sample.py</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
